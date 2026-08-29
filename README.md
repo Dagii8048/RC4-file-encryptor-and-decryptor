@@ -1,2 +1,3 @@
-# RC4-file-encryptor-and-decryptor
-This project is a C-based implementation of the RC4 symmetric stream cipher designed to demonstrate in-memory cryptographic operations. It processes raw byte buffers using a shared secret key, enabling both encryption of plaintext data and decryption of the resulting ciphertext back to its original form
+## RC4 Stream Cipher Demonstration
+
+This repository contains a C implementation of the RC4 symmetric stream cipher, designed to demonstrate in-memory cryptographic operations, buffer manipulation, and symmetric encryption fundamentals. The program illustrates the complete RC4 algorithm cycle—initializing a 256-byte permutation state using the Key-Scheduling Algorithm (KSA) and generating a keystream to transform data via bitwise XOR operations through the Pseudo-Random Generation Algorithm (PRGA). This codebase serves as an academic reference for understanding stream cipher mechanics, key setup routines, and symmetrical data restoration.
